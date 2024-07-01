@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My Tech Goals</h1>
+  </header>
+  <main>
+    <section class="profile">
+      <img
+        src="./assets/images/profile.png"
+        alt="Tochukwu Nwosa on big beards"
+        data-testid="slackProfilePicture"
+        width="192"
+        height="192"
+      />
+      <div>
+        <p data-testid="slackDisplayName">Tochukwu Nwosa</p>
+        <p data-testid="slackEmail">obere4u@gmail.com</p>
+        <p data-testid="currentTimeUTC">
+          Current UTC Time: <span id="utcTime"></span>
+        </p>
+        <p data-testid="currentDay">
+          Current Day: <span id="currentDay"></span>
+        </p>
+      </div>
+    </section>
+    <section class="goals">
+      <h2>My Goals for the Next 2 Years</h2>
+      <ul>
+        <li>Master advanced React.js concepts</li>
+        <li>Learn TypeScript and Next.js</li>
+        <li>Contribute to open-source projects</li>
+        <li>Build full-stack applications with Node.js and Express.js</li>
+        <li>Learn and implement best practices in web security</li>
+        <li>Land a remote job</li>
+      </ul>
+    </section>
+    <section class="links">
+      <h2>Useful Links</h2>
+      <ul>
+        <li>
+          <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+        </li>
+        <li>
+          <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+        </li>
+        <li>
+          <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <span id="currentYear"></span> Tochukwu Nwosa</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
